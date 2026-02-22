@@ -1,5 +1,23 @@
 # Flight Historian Changelog
 
+## [2.6] - AWS Boarding Pass Email and GraphML
+
+### New
+- Added personal stats block to index pages
+- Added [GraphML](http://graphml.graphdrawing.org/) download link to all maps.
+- Added API endpoints
+  - `recent_flights`
+  - `annual_flight_summary`
+  - `all_flights`
+
+### Changed
+- Upgraded to Ruby 3.4 and Rails 8.0.
+- [Changed](https://paulbogard.net/posts/changing-boarding-pass-email-to-ses/) boarding pass email handling from IMAP to SES and S3.
+
+### Removed
+- Removed boarding pass parser (relocated to [https://paulbogard.net/boarding-pass-parser/](https://paulbogard.net/boarding-pass-parser/)).
+- Removed data viewing for visitors (viewing data now requires login).
+
 ## [2.5] - Interactive Mapbox Maps
 2024-07-01
 
