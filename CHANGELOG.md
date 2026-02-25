@@ -1,6 +1,7 @@
 # Flight Historian Changelog
 
 ## [2.6] - AWS Boarding Pass Email and GraphML
+2026-02-22
 
 ### New
 - Added personal stats block to index pages
