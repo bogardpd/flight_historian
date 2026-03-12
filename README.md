@@ -1,8 +1,9 @@
-# Flight Log
+# Flight Historian
 
-Flight Log is a Ruby on Rails application designed to help users record their flights and track details about their travel history. 
+> [!NOTE]
+> Flight Historian has been retired, and is no longer being maintained.
 
-For an active example of Flight Log, see the [author](https://github.com/bogardpd)’s flights hosted at [Flight Historian](https://www.flighthistorian.com/).
+Flight Historian is a Ruby on Rails application designed to help users record their flights and track details about their travel history.
 
 ## Features
 
