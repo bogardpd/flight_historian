@@ -13,7 +13,7 @@
 
 ### Changed
 - Upgraded to Ruby 3.4 and Rails 8.0.
-- [Changed](https://paulbogard.net/posts/changing-boarding-pass-email-to-ses/) boarding pass email handling from IMAP to SES and S3.
+- [Changed](https://paulbogard.net/flight-historian/changing-boarding-pass-email-to-ses/) boarding pass email handling from IMAP to SES and S3.
 
 ### Removed
 - Removed boarding pass parser (relocated to [https://paulbogard.net/boarding-pass-parser/](https://paulbogard.net/boarding-pass-parser/)).
@@ -52,7 +52,7 @@
 - Added latitudes and longitudes to the `Airport` model.
 - Added [FlightXML API](https://flightaware.com/commercial/flightxml/documentation2.rvt) lookup for latitudes and longitudes when adding new airports.
 - Added automatic distance calculation for new Routes, using the Haversine formula.
-- Added [layover ratios](https://paulbogard.net/posts/my-worst-layovers/) to Show Trip Section views with more than one flight.
+- Added [layover ratios](https://paulbogard.net/my-worst-layovers/) to Show Trip Section views with more than one flight.
 - Created `Map.gpx` and `Map.kml` methods for generating GPX and KML maps.
 
 ### Changed
@@ -94,7 +94,7 @@
   - Added a form to allow entry of airport data for BCBP IATA codes not found in the `Airports` table.
   - Added a form for editing an existing flight with an updated PKPass.
   - Added an admin view to list any flights with invalid BCBP data.
-- Created a new [message banner system](https://paulbogard.net/blog/20170405-creating-multiple-flash-messages-in-ruby-on-rails/), to make all messages look consistent.
+- Created a new [message banner system](https://paulbogard.net/flight-historian/creating-multiple-flash-messages-in-ruby-on-rails/), to make all messages look consistent.
 - Added aircraft types to `AircraftFamily` model, and views to show aircraft types.
 
 ### Changed
@@ -104,7 +104,7 @@
 2016-01-31
 
 ## New
-- Added [premium economy](https://www.flighthistorian.com/classes/premium-economy) to list of [travel classes](https://www.flighthistorian.com/classes).
+- Added premium economy to list of travel classes.
 - Added IATA codes to airlines, aircraft families, and travel classes.
 - Added aircraft illustrations to aircraft family pages.
 - Added aircraft name to Show Flight view.
@@ -115,7 +115,7 @@
 - Added date sanity checking to warn if local departure date and UTC departure datetime are too far apart.
 
 ## Changed
-- Separated Flight Log from being part of [Portfolio](https://www.pbogard.com) into [its own site](https://www.flighthistorian.com).
+- Separated Flight Log from my personal website into its own separate website.
   - Renamed Flight Log to Flight Historian.
   - Replaced favicon.
 - Upgraded Ruby from 1.8 to 2.2.
@@ -163,7 +163,7 @@
 
 ### Changed
 - Rewrote the home page to show flight maps, and top 5 lists and counts of routes, airports, aircraft, airlines, and tails.
-- Changed the [airport frequency map](https://www.flighthistorian.com/airports#airport-frequency-map) to represent the number of visits with circle area instead of circle radius.
+- Changed the airport frequency map to represent the number of visits with circle area instead of circle radius.
 - Updated logos and icons for high-DPI displays.
 - Switched Tails and Classes on the main navigation bar.
 - Minor bug fixes.
